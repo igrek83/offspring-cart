@@ -1,0 +1,8 @@
+.header__burger {
+  width: 44px;
+  height: 4px;
+  background: #adadad;
+  border-radius: 2px;
+  margin-top: 3.5px;
+  margin-bottom: 3.5px;
+}

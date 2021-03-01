@@ -1,0 +1,17 @@
+@import url(./__top-span/bascet__top-span.css);
+@import url(./__top-span/bascet__top-span_theme_number.css);
+@import url(./__box/bascet__box.css);
+@import url(./__bottom-box/bascet__bottom-box.css);
+
+.bascet__container {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__container {
+    width: 1000px;
+    align-items: center;
+  }
+} 

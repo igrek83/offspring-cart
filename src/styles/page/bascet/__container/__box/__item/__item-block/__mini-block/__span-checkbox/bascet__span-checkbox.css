@@ -1,0 +1,14 @@
+.bascet__span-checkbox {
+  font-family: 'Cera Pro';
+  font-size: 12px;
+  line-height: 12px;
+  color: #7e7e7e;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__span-checkbox {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 50px;
+  }
+}

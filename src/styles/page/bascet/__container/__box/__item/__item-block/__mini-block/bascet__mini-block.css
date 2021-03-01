@@ -1,0 +1,16 @@
+@import url(./__mini-box/bascet__mini-box.css);
+@import url(./__span-checkbox/bascet__span-checkbox.css);
+
+.bascet__mini-block {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__mini-block {
+    margin-left: 0px;
+    flex-direction: column;
+    margin-bottom: 180px;
+  }
+}

@@ -1,0 +1,12 @@
+.bascet__box-block-heart {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__box-block-heart {
+    width: 68px;
+    background-size: contain;
+    margin-bottom: 100px;
+  }
+}

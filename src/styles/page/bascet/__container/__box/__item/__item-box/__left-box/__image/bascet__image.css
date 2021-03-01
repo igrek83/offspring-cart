@@ -1,0 +1,10 @@
+.bascet__image {
+  width: 173px;
+  background-size: contain;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__image {
+    width: 560px;
+  }
+}

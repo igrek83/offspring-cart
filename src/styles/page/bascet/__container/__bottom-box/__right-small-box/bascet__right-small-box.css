@@ -1,0 +1,10 @@
+@import url(./__right-cost/bascet__right-cost.css);
+@import url(./__summa/bascet__summa.css);
+@import url(./__button/bascet__button.css);
+
+.bascet__right-small-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}

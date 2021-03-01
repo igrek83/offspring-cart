@@ -1,0 +1,17 @@
+@import url(./__left-box/bascet__left-box.css);
+@import url(./__right-box/bascet__right-box.css);
+
+.bascet__item-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__item-box {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+}

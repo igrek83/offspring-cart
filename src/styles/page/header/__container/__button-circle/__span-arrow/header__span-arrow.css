@@ -1,0 +1,29 @@
+.header__span-arrow {
+  position: relative;
+  width: 44px;
+  height: 4px;
+  background: #adadad;
+  border-radius: 2px;
+}
+
+.header__span-arrow::before {
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 4px;
+  background: #adadad;
+  transform: rotate(-45deg);
+  left: 0;
+  top: -7px;
+}
+
+.header__span-arrow::after {
+  position: absolute;
+  content: "";
+  width: 18px;
+  height: 4px;
+  background: #adadad;
+  transform: rotate(45deg);
+  left: 0;
+  top: 7px;
+}

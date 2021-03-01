@@ -1,0 +1,45 @@
+.bascet__scroll {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0px 0px 5px rgba(37, 43, 43, .4);
+  pointer-events: none;
+  top: -3.5px;
+  left: -5px;
+  transition: all .3s ease;
+}
+
+.bascet__checkbox[id='oneCheckbox']:checked~.bascet__scroll {
+  left: 22px;
+}
+
+.bascet__checkbox[id='twoCheckbox']:checked~.bascet__scroll {
+  left: 22px;
+}
+
+.bascet__checkbox[id='threeCheckbox']:checked~.bascet__scroll {
+  left: 22px;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__scroll {
+    width: 70px;
+    height: 70px;
+    box-shadow: 0px 0px 20px rgba(37, 43, 43, .4);
+    top: -14px;
+    left: -25px;
+  }
+  .bascet__checkbox[id='oneCheckbox']:checked~.bascet__scroll {
+    left: 100px;
+  }
+  
+  .bascet__checkbox[id='twoCheckbox']:checked~.bascet__scroll {
+    left: 100px;
+  }
+  
+  .bascet__checkbox[id='threeCheckbox']:checked~.bascet__scroll {
+    left: 100px;
+  }
+}

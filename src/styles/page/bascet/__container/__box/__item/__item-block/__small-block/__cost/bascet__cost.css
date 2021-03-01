@@ -1,0 +1,14 @@
+.bascet__cost {
+  font-family: 'Cera Pro';
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 22px;
+  color: #4f4f4f;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__cost {
+    font-size: 84px;
+    line-height: 84px;
+  }
+}

@@ -1,0 +1,47 @@
+.bascet__text-area {
+  outline: none;
+  border: 4px solid rgba(255, 255, 255, 0);
+  background: none;
+  font-family: 'Cera Pro';
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #9f9f9f;
+  width: 400px;
+  height: 186px;
+  border-radius: 24px;
+  box-shadow: inset 0px 0px 12px rgba(37, 43, 43, .08);
+  resize: none;
+  padding: 22px 32px;
+}
+
+.bascet__text-area:focus {
+  border: 4px solid #bdbdbd;
+  color: #9f9f9f;
+  font-weight: 600;
+}
+
+.bascet__text-area:focus::placeholder {
+  opacity: 0;
+}
+
+.bascet__text-area:focus::-webkit-input-placeholder {
+  text-align: center;
+  opacity: 0;
+}
+
+.bascet__text-area:focus::-moz-placeholder {
+  text-align: center;
+  opacity: 0;
+}
+
+.bascet__text-area:focus::-ms-input-placeholder {
+  text-align: center;
+  opacity: 0;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__text-area {
+    display: none;
+  }
+}

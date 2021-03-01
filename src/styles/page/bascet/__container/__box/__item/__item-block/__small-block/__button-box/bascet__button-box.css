@@ -1,0 +1,19 @@
+@import url(./__button-plus/bascet__button-plus.css);
+@import url(./__button-minus/bascet__button-minus.css);
+@import url(./__counter/bascet__counter.css);
+
+.bascet__button-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  margin-right: 40px;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__button-box {
+    width: 500px;
+    margin-right: 0;
+    margin-bottom: 60px;
+  }
+}

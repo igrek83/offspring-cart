@@ -1,0 +1,16 @@
+.bascet__box-block-title {
+  font-family: 'Cera Pro';
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  color: #00a98f;
+  margin-bottom: 10px;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__box-block-title {
+    font-size: 114px;
+    line-height: 114px;
+    margin-bottom: 40px;
+  }
+}

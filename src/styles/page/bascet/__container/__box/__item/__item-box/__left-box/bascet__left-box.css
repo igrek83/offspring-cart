@@ -1,0 +1,16 @@
+@import url(./__title/bascet__title.css);
+@import url(./__image/bascet__image.css);
+
+.bascet__left-box {
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__left-box {
+    width: 100%;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+}

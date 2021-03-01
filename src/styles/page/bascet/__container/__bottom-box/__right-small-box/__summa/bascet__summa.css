@@ -1,0 +1,16 @@
+.bascet__summa {
+  font-family: 'Cera Pro';
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  color: #4f4f4f;
+  margin-bottom: 40px;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__summa {
+    font-size: 129px;
+    line-height: 129px;
+    margin-bottom: 200px;
+  }
+}

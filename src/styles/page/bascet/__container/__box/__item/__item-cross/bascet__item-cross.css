@@ -1,0 +1,18 @@
+.bascet__item-cross {
+  align-self: flex-end;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../../../../../../images/cross.svg);
+  width: 13px;
+  height: 13px;
+  background-size: cover;
+  cursor: pointer;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__item-cross {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 70px;
+  }
+}

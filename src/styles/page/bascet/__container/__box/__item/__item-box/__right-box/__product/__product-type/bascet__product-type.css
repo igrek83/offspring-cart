@@ -1,0 +1,19 @@
+.bascet__product-type {
+  font-family: 'Cera Pro';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  color: #7e7e7e;
+  width: 60px;
+  text-align: left;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__product-type {
+    font-size: 34px;
+    line-height: 34px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 90px;
+  }
+}

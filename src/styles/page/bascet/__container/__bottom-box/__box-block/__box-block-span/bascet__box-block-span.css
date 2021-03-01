@@ -1,0 +1,17 @@
+.bascet__box-block-span {
+  width: 138px;
+  text-align: center;
+  font-family: 'Cera Pro';
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 9px;
+  color: rgba(0, 169, 143, .6);
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__box-block-span {
+    font-size: 34px;
+    line-height: 34px;
+    width: 400px;
+  }
+}

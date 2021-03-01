@@ -1,0 +1,14 @@
+.bascet__counter {
+  font-family: 'Cera Pro';
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  color: #7e7e7e;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__counter {
+    font-size: 63px;
+    line-height: 74px;
+  }
+}

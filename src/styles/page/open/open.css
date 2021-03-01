@@ -1,0 +1,9 @@
+.open {
+  display: none;
+}
+
+@media all and (max-width: 1200px) {
+  .open {
+    display: flex;
+  }
+}

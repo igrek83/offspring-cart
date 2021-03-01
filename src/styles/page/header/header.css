@@ -1,0 +1,24 @@
+@import url(./__container/header__container.css);
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 1900px;
+  height: 70px;
+  background: #00a98f;
+}
+
+@media all and (max-width: 1200px) {
+  .header {
+    position: relative;
+    background: #fff;
+    height: auto;
+    width: 1200px;
+    padding-left: 0;
+  }
+  .header__fixed {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+  }
+}

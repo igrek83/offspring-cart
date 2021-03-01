@@ -1,0 +1,15 @@
+@import url(./__li/header__li.css);
+
+.header__ul {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+@media all and (max-width: 1200px) {
+  .header__ul {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 150px;
+  }
+}

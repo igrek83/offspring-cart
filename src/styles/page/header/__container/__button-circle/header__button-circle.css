@@ -1,0 +1,28 @@
+@import url(./__burger/header__burger.css);
+@import url(./__span-arrow/header__span-arrow.css);
+@import url(./__span-cross/header__span-cross.css);
+
+.header__button-circle {
+  display: none;
+  outline: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0px 0px 28px rgba(37, 43, 43, 0.12);
+}
+
+.header__button-circle:active {
+  box-shadow: inset 0px 0px 28px rgba(37, 43, 43, 0.12);
+}
+
+@media all and (max-width: 1200px) {
+  .header__button-circle {
+    display: none;
+  }
+}

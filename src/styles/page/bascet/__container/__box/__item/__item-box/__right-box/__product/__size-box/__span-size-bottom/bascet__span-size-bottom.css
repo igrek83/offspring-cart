@@ -1,0 +1,14 @@
+.bascet__span-size-bottom {
+  font-family: 'Cera Pro';
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #7e7e7e;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__span-size-bottom {
+    font-size: 34px;
+    line-height: 36px;
+  }
+}

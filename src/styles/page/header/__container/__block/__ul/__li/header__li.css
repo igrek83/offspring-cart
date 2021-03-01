@@ -1,0 +1,17 @@
+.header__li {
+  font-family: 'Cera Pro';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media all and (max-width: 1200px) {
+  .header__li {
+    color: #848484;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 65px;
+  }
+}

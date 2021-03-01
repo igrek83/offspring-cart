@@ -1,0 +1,70 @@
+.bascet__button-plus {
+  position: relative;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: #fff;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 7px rgba(37, 43, 43, .1);
+}
+
+.bascet__button-plus:before {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 1.7px;
+  border-radius: 2px;
+  background: #bebebe;
+  right: 8px;
+}
+
+.bascet__button-plus::after {
+  position: absolute;
+  content: "";
+  width: 8px;
+  height: 1.7px;
+  border-radius: 2px;
+  background: #bebebe;
+  right: 8px;
+  transform: rotate(90deg);
+}
+
+.bascet__button-plus:active {
+  box-shadow: inset 0px 0px 3px rgba(37, 43, 43, .1);
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__button-plus {
+    width: 124px;
+    height: 124px;
+    box-shadow: 0px 0px 34px rgba(37, 43, 43, .1);
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .bascet__button-plus:before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 5px;
+    border-radius: 6px;
+    right: 43px;
+    pointer-events: none;
+  }
+  
+  .bascet__button-plus::after {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 5px;
+    border-radius: 6px;
+    right: 43px;
+    transform: rotate(90deg);
+    pointer-events: none;
+  }
+  
+  .bascet__button-plus:active {
+    box-shadow: inset 0px 0px 17px rgba(37, 43, 43, .1);
+  }
+}

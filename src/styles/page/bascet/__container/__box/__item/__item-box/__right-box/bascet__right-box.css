@@ -1,0 +1,17 @@
+@import url(./__product/bascet__product.css);
+@import url(./__box-name/bascet__box-name.css);
+
+.bascet__right-box {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__right-box {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 0px;
+    width: 100%;
+  }
+}

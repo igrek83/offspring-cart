@@ -1,0 +1,17 @@
+@import url(./__span-name/bascet__span-name.css);
+
+.bascet__box-name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  padding-right: 95px;
+  padding-left: 233px;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet__box-name {
+    display: none;
+  }
+}

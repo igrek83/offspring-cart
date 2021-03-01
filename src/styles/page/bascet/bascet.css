@@ -1,0 +1,15 @@
+@import url(./__container/bascet__container.css);
+
+.bascet {
+  display: flex;
+  justify-content: center;
+  width: 1900px;
+  padding: 130px 0;
+}
+
+@media all and (max-width: 1200px) {
+  .bascet {
+    width: 1200px;
+    padding: 200px 0;
+  }
+}

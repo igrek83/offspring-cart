@@ -1,0 +1,18 @@
+@import url(./__block/header__block.css);
+@import url(./__logo/header__logo.css);
+@import url(./__button-circle/header__button-circle.css);
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+@media all and (max-width: 1200px) {
+  .header__container {
+    width: 1000px;
+    padding-top: 80px;
+    align-items: center;
+    padding-bottom: 80px;
+  }
+}
